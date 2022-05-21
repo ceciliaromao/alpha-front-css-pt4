@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Backgrounds:</h1>
+    <div class="cor-solida" style="background: green; height: 9rem; margin: 1rem;"></div>
+    <div class="transparencia" style="background: rgba(0, 128, 0, 0.333); height: 9rem; margin: 1rem;"></div>
+    <div class="gradiente" style="background: linear-gradient(to bottom right, green, rgba(0, 128, 0, 0.333)); height: 9rem; margin: 1rem;"></div>
+    <div class="imagem-unica" style="background: url(./bkg.jpg); background-size: cover; height: 9rem; margin: 1rem;"></div>
+    <div class="imagem-repetida" style="background: url(./bkg2.svg); background-repeat: repeat; height: 9rem; margin: 1rem;"></div>
+
+    <h1>Borders:</h1>
+    <div style="height: 9rem; margin: 1rem; border: 5px solid green;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px dotted green;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px dashed green;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px groove green;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px double green;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px ridge green;"></div>
+
+    <div style="height: 9rem; margin: 1rem; border: 5px solid green; border-radius: 50px;"></div>
+    <div style="height: 9rem; margin: 1rem; border: 5px solid green; border-radius: 0 50px;"></div>
+
+    <h1>Imagem delimitada por um círculo com sombreamento</h1>
+    <img src="./img.jpg" alt="" style="border-radius: 50%; box-shadow: 5px 10px rgba(0, 128, 0, 0.107)">
+  </body>
+</html>
